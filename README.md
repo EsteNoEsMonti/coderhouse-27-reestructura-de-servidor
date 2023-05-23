@@ -13,9 +13,19 @@
 export const githubAppId = 0
 export const githubClienteId = ''
 export const githubClientSecret = ''
-export const githubCallbackUrl = 'http://localhost:8080/sessions/githubcallback'
+export const githubCallbackUrl = 'http://localhost:8080/api/sessions/githubcallback'
 ```
 
+.env.example
+```
+NODE_GITHUB_APP_ID=
+NODE_GITHUB_CLIENT_ID=
+NODE_GITHUB_CLIENT_SECRET=
+NODE_MONGO_URL=
+NODE_ADMIN_EMAIL=
+NODE_ADMIN_PASSWORD=
+NODE_PORT=
+```
 http://localhost:8080/
 
 <!-- ## Contacto
